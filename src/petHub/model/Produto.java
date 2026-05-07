@@ -1,6 +1,6 @@
 package petHub.model;
 
-public class Produto {
+public abstract class Produto {
 
 	private String nome;
 	private String marca;
