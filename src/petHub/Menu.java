@@ -2,9 +2,18 @@ package petHub;
 
 import java.util.Scanner;
 
+import petHub.model.Alimentos;
+import petHub.model.Produto;
+
 public class Menu {
 
 	public static void main(String[] args) {
+
+		Produto pp = new Produto("Bolinha", "Smurf", 5f);
+		pp.visualizar();
+
+		Alimentos cc = new Alimentos("Ração para Gatos", "Whiskas", 107f, "Salmão", 10.1f);
+		cc.visualizar();
 
 		Scanner leia = new Scanner(System.in);
 
@@ -61,6 +70,7 @@ public class Menu {
 			}
 
 		}
+
 	}
 
 	public static void sobre() {
