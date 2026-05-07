@@ -2,7 +2,7 @@ package petHub.repository;
 
 import petHub.model.Produto;
 
-public interface ProdutoRepositoy {
+public interface ProdutoRepository {
 	
 	// CRUD do produto
 	public void listarTodas();
@@ -10,4 +10,5 @@ public interface ProdutoRepositoy {
    	public void atualizar(Produto produto);
 	public void excluir (String nome);
 
+	
 }
